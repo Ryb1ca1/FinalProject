@@ -1,0 +1,27 @@
+.blur-block {
+  width: 500px;
+  height: 200px;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+}
+ .image-main{
+    width: 100%;
+    max-width: 575px;
+    height: auto;
+  }
+
+  @media (max-width: 1123px) {
+
+     .small-blur {
+     display: none;
+    }
+  }
+@media (max-width: 768px) {
+  .picContainer{
+    justify-content: center;
+  }
+   .big-blur, .small-blur, .blur-block {
+   display: none;
+  }
+}

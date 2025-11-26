@@ -1,0 +1,75 @@
+.searchForm_ticksSection{
+  display:flex;
+}
+.searchForm_dates{
+  justify-content: space-between;
+}
+.searchForm_buttonDiv{
+  align-self: flex-end ;
+  width: 80%;
+}
+
+input{
+  max-width: 242px;
+}
+.searchForm_form{
+  max-width: 872px;
+  padding: 21px 39px 32px 44px;
+}
+
+label{
+  font-size: 18px;
+  font-weight: 400;
+}
+
+@media(max-width:767px){
+  label{
+    font-size: 14px;
+  }
+}
+
+@media(max-width:707px){
+
+  .searchForm_form{
+    flex-direction: column;
+    padding: 21px 20px;
+  }
+
+  .searchForm_ticksSection{
+    display: none;
+  }
+
+  .searchForm_form{
+    max-width: 572px;
+  }
+
+  input{
+    width: 100%;
+    max-width: none;
+  }
+  
+  .searchForm_dateInput{
+    width: 100%;
+    min-width: 140px;
+    max-width: 220px;
+    
+  }
+
+  .searchForm_buttonDiv{
+    align-self: center;
+  }
+  .searchForm_dates{
+    justify-content: flex-start;
+    gap: 10px;
+  }
+}
+@media(max-width:450px){
+  .searchForm_dates{
+    flex-direction: column;
+  }
+  .searchForm_dateInput{
+    margin-top: 5px;
+    min-width: none;
+    max-width: none;
+  }
+}

@@ -1,0 +1,27 @@
+
+.tarifdiv{
+  align-items: flex-start;
+}
+
+@media (max-width: 1097px) {
+
+  .tarifdiv{
+    align-items: center;
+  }
+  .tariffs{
+    width: 80%;
+    margin: 0 10%;
+    flex-wrap: wrap;
+ }
+}
+
+@media (max-width: 884px) {
+
+  .ourPrices{
+  margin-left: 0;
+}
+
+  .tariffs{
+  flex-direction: column;
+ }
+}

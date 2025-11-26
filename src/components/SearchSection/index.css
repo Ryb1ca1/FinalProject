@@ -1,0 +1,69 @@
+.searchArea_searchForm{
+width: 60%;
+}
+.searchArea_img{
+  width: 30%;
+}
+.searchTitle_imgBlock{
+    width: 50%;  
+}
+.searchTitle_textBlock{
+  width: 50%;
+}
+.searchTitle_textBlock_h1{
+  font-size: 40px;
+}
+.searchTitle_textBlock_p{
+  font-size: 20px;
+}
+@media(max-width:1218px){
+  .searchArea{
+    margin-top: 30px;
+    align-items: center;
+    flex-direction:column;
+    
+  }
+  
+    .searchArea_searchForm{
+    width: 100%;
+    }
+    .searchArea_img{
+    width: 50%;
+    }
+    .searchTitle_imgBlock{
+    width: 20%;
+    }
+    .searchTitle_textBlock{
+    width: 80%;
+    }
+    .searchTitle_folderImg{
+      display: none;
+    }
+
+}
+
+@media(max-width:767px){
+  .searchTitle_imgBlock{
+    width: 10%;
+    }
+    .searchTitle_textBlock{
+    width: 70%;
+    }
+  .searchTitle_textBlock_h1{
+    font-size: 30px;
+  }
+  
+  .searchTitle_textBlock_p{
+    font-size: 16px;
+  }
+  .searchArea_img{
+    margin-top: 20px;
+    }
+}
+
+@media(max-width:707px){
+  .searchArea_img{
+  width: 80%;
+  align-self: flex-end;
+  }
+} 

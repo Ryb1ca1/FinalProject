@@ -1,0 +1,39 @@
+.carousel-container {
+	min-height: 280px;
+}
+.carousel-track {
+	max-width: 100%;
+	gap: 30px;
+	min-height: 280px;
+}
+
+@media (max-width: 575px) {
+	.carousel-container {
+		min-height: 230px;
+	}
+	.carousel-track {
+		max-width: 100%;
+		gap: 10px;
+		min-height: 230px;
+	}
+}
+
+.arrow {
+	display: inline-block;
+	transition: background-color 0.8s ease;
+}
+
+.arrow:hover {
+	background: #b2d2d2;
+}
+
+@media (max-width: 770px) {
+	/* .AboutUsSection{
+		padding-left: 20px;
+	} */
+	.AboutUsSectionH1 {
+		font-size: 24px;
+		max-width: 270px;
+		padding-left: 20px;
+	}
+}

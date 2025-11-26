@@ -1,0 +1,17 @@
+footer {
+padding: 0 40px;
+align-items: center;
+}
+
+@media (max-width: 450px) {
+
+  footer{
+padding: 5px 19px;
+align-items: flex-start;
+ }
+ .logo{
+  position: absolute;
+  top: -20px;
+ }
+  }
+  

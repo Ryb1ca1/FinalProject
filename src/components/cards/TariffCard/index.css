@@ -1,0 +1,10 @@
+
+.tarifCard{
+   width: 415px;
+}
+
+@media (max-width: 1342px) {
+    .tarifCard{
+    width: 335px;
+    }
+}

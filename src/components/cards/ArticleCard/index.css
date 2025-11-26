@@ -1,0 +1,19 @@
+
+
+.articleCard{
+  max-width: 641px;
+  max-height: 694px;
+  min-height: 694px;
+  height:694px;
+  padding: 19px 30px 35px;
+}
+
+@media (max-width: 404px){
+
+.articleCard{
+  /* width: 298px; */
+  width: 100%;
+  min-width: 298px;
+  padding: 15px;
+}
+}

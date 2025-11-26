@@ -1,0 +1,87 @@
+ header{
+width: 100%;
+min-width: 375px;
+max-width:100%;
+} 
+.navDiv{
+	justify-content: space-between;
+
+}
+.authIconName{
+	display: flex;
+}
+.headerInnerDiv{
+	padding: 0 60px;
+}
+.hamburgerMenu{
+	display: none;
+}
+
+.navigation{
+	display: flex;
+}
+.navigationUL{
+	gap: 30px;
+		}
+.burgerMenuIcon{
+	display: none;
+}
+.navDiv{
+	width: 57%;
+}
+.userNameSection{
+	display: flex;
+}
+
+@media (max-width: 1035px){
+	.navDiv{
+		width: 70%;
+	}
+
+
+	.navigationUL{
+gap: 10px;
+	}
+}
+
+@media (max-width: 806px){
+		/* .navigation{
+		display: none;
+	} */
+	.navDiv{
+		width: 80%;
+	}
+}
+@media (max-width:707px) {
+
+	.authIconName{
+		display: none;
+	}
+
+	.headerInnerDiv{
+		padding: 0 20px;
+		justify-content:space-around
+	}
+	.navDiv{
+		width: 250px;
+		padding-right: 20px;
+	}
+.hamburgerMenu{
+	display: block;
+}
+  .navigation{
+  display: none;
+  } 
+
+.burgerMenuIcon{
+	display: flex;
+}
+.userNameSection{
+	display: none;
+}
+.navDiv{
+	justify-content: flex-end;
+
+}
+
+}
